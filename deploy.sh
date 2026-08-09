@@ -22,8 +22,8 @@ aws s3 cp 404.html "s3://$BUCKET/404.html" --content-type "text/html; charset=ut
 aws s3 cp sitemap.xml "s3://$BUCKET/sitemap.xml" --content-type "application/xml; charset=utf-8" --cache-control "public,max-age=3600"
 aws s3 cp robots.txt "s3://$BUCKET/robots.txt" --content-type "text/plain; charset=utf-8" --cache-control "public,max-age=3600"
 aws s3 cp llms.txt "s3://$BUCKET/llms.txt" --content-type "text/plain; charset=utf-8" --cache-control "public,max-age=3600"
-if [[ -f og.png ]]; then
-  aws s3 cp og.png "s3://$BUCKET/og.png" --content-type "image/png" --cache-control "public,max-age=604800"
+if [[ -f wizardfromearth-social-card-2026.png ]]; then
+  aws s3 cp wizardfromearth-social-card-2026.png "s3://$BUCKET/wizardfromearth-social-card-2026.png" --content-type "image/png" --cache-control "public,max-age=604800"
 fi
 aws s3 sync assets "s3://$BUCKET/assets" --delete --exclude '.DS_Store' --cache-control "public,max-age=86400"
 aws s3 cp brand/favicon.png "s3://$BUCKET/brand/favicon.png" --content-type "image/png" --cache-control "public,max-age=604800"

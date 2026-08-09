@@ -129,7 +129,7 @@ def structured_data(tracks):
             {
                 "@type": "WebSite",
                 "url": SITE_URL,
-                "name": "wizardfromearth — Orbital Transmission Archive",
+                "name": "wizardfromearth — Official Site",
                 "inLanguage": "en-US",
             },
         ],
