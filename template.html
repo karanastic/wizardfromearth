@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260809-2">
+  <link rel="stylesheet" href="assets/style.css?v=20260809-3">
   <script type="application/ld+json">/*__STRUCTURED_DATA__*/{}</script>
 </head>
 <body>
@@ -30,12 +30,15 @@
     <a class="brand" href="#top" aria-label="wizardfromearth home">
       <img src="logo/wizardfromearth-logo-blk.webp" alt="wizardfromearth" width="640" height="180">
     </a>
-    <nav aria-label="Primary navigation">
+    <nav id="primary-nav" aria-label="Primary navigation">
       <a href="#archive"><span>01</span> Archive</a>
       <a href="#origin"><span>02</span> Origin</a>
       <a href="#merch"><span>03</span> Merch</a>
       <a href="#transmit"><span>04</span> Transmit</a>
     </nav>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
     <div class="header-status"><i></i> Signal live</div>
   </header>
 
@@ -203,6 +206,6 @@
 
   <audio id="audio" preload="metadata"></audio>
   <script>window.WFE_TRACKS = /*__TRACK_DATA__*/[];</script>
-  <script src="assets/site.js?v=20260809-2" defer></script>
+  <script src="assets/site.js?v=20260809-3" defer></script>
 </body>
 </html>

@@ -3,6 +3,34 @@
 
   const tracks = window.WFE_TRACKS || [];
 
+  const siteHeader = document.querySelector(".site-header");
+  const menuToggle = document.querySelector("#menu-toggle");
+  const primaryNav = document.querySelector("#primary-nav");
+  const closeMenu = () => {
+    siteHeader?.classList.remove("is-menu-open");
+    menuToggle?.setAttribute("aria-expanded", "false");
+    menuToggle?.setAttribute("aria-label", "Open navigation");
+  };
+  menuToggle?.addEventListener("click", () => {
+    const opening = !siteHeader.classList.contains("is-menu-open");
+    siteHeader.classList.toggle("is-menu-open", opening);
+    menuToggle.setAttribute("aria-expanded", String(opening));
+    menuToggle.setAttribute("aria-label", opening ? "Close navigation" : "Open navigation");
+  });
+  primaryNav?.addEventListener("click", (event) => {
+    if (event.target.closest("a")) closeMenu();
+  });
+  document.querySelector(".brand")?.addEventListener("click", closeMenu);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMenu();
+      menuToggle?.focus();
+    }
+  });
+  window.matchMedia("(min-width: 1001px)").addEventListener("change", (event) => {
+    if (event.matches) closeMenu();
+  });
+
   const heroTitle = document.querySelector("#hero-title");
   if (heroTitle && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const headline = heroTitle.textContent.trim();
