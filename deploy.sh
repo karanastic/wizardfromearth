@@ -26,6 +26,7 @@ if [[ -f og.png ]]; then
   aws s3 cp og.png "s3://$BUCKET/og.png" --content-type "image/png" --cache-control "public,max-age=604800"
 fi
 aws s3 sync assets "s3://$BUCKET/assets" --delete --exclude '.DS_Store' --cache-control "public,max-age=86400"
+aws s3 cp brand/favicon.png "s3://$BUCKET/brand/favicon.png" --content-type "image/png" --cache-control "public,max-age=604800"
 aws s3 sync logo "s3://$BUCKET/logo" --delete --exclude '*.psd' --exclude '.DS_Store' --cache-control "public,max-age=604800"
 aws s3 sync photos "s3://$BUCKET/photos" --delete --exclude '.DS_Store' --cache-control "public,max-age=604800"
 aws s3 sync merch "s3://$BUCKET/merch" --delete --exclude '*.psd' --exclude '.DS_Store' --cache-control "public,max-age=604800"
