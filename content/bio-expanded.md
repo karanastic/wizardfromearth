@@ -1,0 +1,11 @@
+# Expanded Bio
+
+wizardfromearth is a genre-resistant musician, songwriter, and multi-instrumentalist whose work exists somewhere between the familiar and the unexplored. Moving freely through indie, ambient, experimental, rock, and rap, he treats genre as a collection of tools rather than a set of boundaries. A song might begin with a guitar, an atmospheric keyboard passage, a bass line, a vocal melody, or a verse—and then develop in whatever direction the music demands.
+
+His creative journey began in Providence and continues today in Brevard County near Palm Bay, Florida. Across well over a decade of making music, wizardfromearth has built a practice around experimentation, independence, and constant movement. He performs vocals, guitar, bass, and keyboard, shifting naturally between singing and rapping while creating work that can be intimate and reflective, strange and expansive, or direct and rhythm-driven. He is also part of [The Palm Bay Connection](https://thepalmbayconnection.com/), extending that versatility into the group’s collaborative rap universe.
+
+wizardfromearth does not trace his sound back to any single artist or established musical lineage. His music is guided instead by curiosity and the freedom to follow an idea without worrying about where it belongs. Indie songwriting, ambient space, experimental texture, live instrumentation, and hip-hop language can all occupy the same world. That openness gives the work its identity: music made without a fixed destination and without allegiance to one scene, era, or format.
+
+Outside of music, his creative imagination is shaped by two very different universes: the strange, irreverent futurism of *Futurama* and the deep mythology and world-building of *The Lord of the Rings*. Those cultural touchstones reflect the range within his own work—playful and otherworldly on one side, immersive and timeless on the other. Fluent in German as well as English, wizardfromearth carries an additional sense of language and perspective into a body of work that is deliberately difficult to contain.
+
+Rooted in Palm Bay but never constrained by this world, wizardfromearth creates for listeners willing to follow the signal wherever it leads next.

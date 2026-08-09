@@ -1,0 +1,21 @@
+.DS_Store
+*.sb-*
+__pycache__/
+*.pyc
+
+# Production audio is uploaded directly to S3, not committed to Git.
+music/*.wav
+music/*.mp3
+music/*.aiff
+music/*.aif
+music/*.flac
+music/**/*.wav
+music/**/*.mp3
+music/**/*.aiff
+music/**/*.aif
+music/**/*.flac
+featuring-karanastic/*.wav
+
+# Editable source files stay local.
+logo/*.psd
+original-dontaddtogithub/
