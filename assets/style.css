@@ -300,11 +300,11 @@ footer div { display: flex; gap: 25px; }
   .origin__facts span { padding: 10px; }
   .origin__facts b { font-size: 1.5rem; }
   .merch { min-height: 0; grid-template-columns: 1fr; }
-  .merch__visual { min-height: 690px; padding: 70px 18px; border-right: 0; border-bottom: 1px solid rgba(240,238,229,.28); background-size: 54px 54px; }
+  .merch__visual { min-height: 690px; padding: 70px 18px; border-right: 0; border-bottom: 0; background-size: 54px 54px; }
   .merch__visual::before { width: 115%; }
   .merch__visual figure { width: min(72vw, 410px); }
   .merch__visual figcaption { font-size: .43rem; }
-  .merch__copy { padding: 75px var(--edge) 95px; }
+  .merch__copy { order: -1; padding: 75px var(--edge) 95px; border-bottom: 1px solid rgba(240,238,229,.28); }
   .merch__orbit { right: -60px; top: 28px; width: 190px; }
   .merch__links { grid-template-columns: 1fr; }
   .merch__link--primary { grid-column: 1; }
