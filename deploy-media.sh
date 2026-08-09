@@ -16,9 +16,8 @@ command -v aws >/dev/null || { echo "AWS CLI not found."; exit 1; }
 [[ -n "$DISTRIBUTION_ID" ]] || { echo "CLOUDFRONT_DISTRIBUTION_ID is required."; exit 1; }
 
 ./prepare-media.sh
-aws s3 sync music "s3://$BUCKET/music" --exclude '*' --include '*.mp3' --include '*.wav' --cache-control "public,max-age=604800"
-aws s3 cp "s3://$BUCKET/music" "s3://$BUCKET/music" --recursive --exclude '*' --include '*.mp3' --content-type 'audio/mpeg' --cache-control "public,max-age=604800" --metadata-directive REPLACE
-aws s3 cp "s3://$BUCKET/music" "s3://$BUCKET/music" --recursive --exclude '*' --include '*.wav' --content-type 'audio/wav' --cache-control "public,max-age=604800" --metadata-directive REPLACE
+aws s3 sync music "s3://$BUCKET/music" --exclude '*' --include '*.mp3' --content-type 'audio/mpeg' --cache-control "public,max-age=604800"
+aws s3 sync music "s3://$BUCKET/music" --exclude '*' --include '*.wav' --content-type 'audio/wav' --cache-control "public,max-age=604800"
 aws cloudfront create-invalidation --distribution-id "$DISTRIBUTION_ID" --paths '/music/*' >/dev/null
 
 echo "Music archive deployed."

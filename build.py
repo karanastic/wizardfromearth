@@ -14,7 +14,9 @@ SITE_URL = "https://wizardfromearth.com"
 
 TITLE_OVERRIDES = {
     "it-helps_Masterchannel": "It Helps",
+    "loving-you-is-never-enough": "Loving You (Is Never Enough)",
     "oh_starling": "Oh, Starling",
+    "sams-song": "Sam's Song",
 }
 
 
