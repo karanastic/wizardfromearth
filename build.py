@@ -13,9 +13,14 @@ TRACKS_FILE = ROOT / "tracks.json"
 SITE_URL = "https://wizardfromearth.com"
 
 TITLE_OVERRIDES = {
+    "further-in-the-forest": "Further in the Forest",
+    "henry-by-the-fighting-moongooses": "Henry by the Fighting Moongooses",
+    "henry-ive-known-you": "Henry I've Known You",
+    "henry-poopy-potty": "Henry Poopy Potty",
     "it-helps_Masterchannel": "It Helps",
     "loving-you-is-never-enough": "Loving You (Is Never Enough)",
     "oh_starling": "Oh, Starling",
+    "power-of-the-ultra-ball-by-the-fighting-moongooses": "Power of the Ultraball by the Fighting Moongooses",
     "sams-song": "Sam's Song",
 }
 

@@ -73,6 +73,15 @@
   },
   {
     "number": "09",
+    "title": "Further in the Forest",
+    "slug": "further-in-the-forest",
+    "stream": "music/further-in-the-forest.mp3",
+    "mp3": "music/further-in-the-forest.mp3",
+    "wav": "music/further-in-the-forest.wav",
+    "collection": "solo"
+  },
+  {
+    "number": "10",
     "title": "Guitar Loop",
     "slug": "guitar-loop",
     "stream": "music/guitar-loop.mp3",
@@ -81,7 +90,7 @@
     "collection": "solo"
   },
   {
-    "number": "10",
+    "number": "11",
     "title": "Hello And Goodbye",
     "slug": "hello-and-goodbye",
     "stream": "music/hello-and-goodbye.mp3",
@@ -90,7 +99,34 @@
     "collection": "solo"
   },
   {
-    "number": "11",
+    "number": "12",
+    "title": "Henry by the Fighting Moongooses",
+    "slug": "henry-by-the-fighting-moongooses",
+    "stream": "music/henry-by-the-fighting-moongooses.mp3",
+    "mp3": "music/henry-by-the-fighting-moongooses.mp3",
+    "wav": "music/henry-by-the-fighting-moongooses.wav",
+    "collection": "solo"
+  },
+  {
+    "number": "13",
+    "title": "Henry I've Known You",
+    "slug": "henry-ive-known-you",
+    "stream": "music/henry-ive-known-you.mp3",
+    "mp3": "music/henry-ive-known-you.mp3",
+    "wav": "music/henry-ive-known-you.wav",
+    "collection": "solo"
+  },
+  {
+    "number": "14",
+    "title": "Henry Poopy Potty",
+    "slug": "henry-poopy-potty",
+    "stream": "music/henry-poopy-potty.mp3",
+    "mp3": "music/henry-poopy-potty.mp3",
+    "wav": "music/henry-poopy-potty.wav",
+    "collection": "solo"
+  },
+  {
+    "number": "15",
     "title": "It Helps",
     "slug": "it-helps-masterchannel",
     "stream": "music/it-helps_Masterchannel.mp3",
@@ -99,7 +135,7 @@
     "collection": "solo"
   },
   {
-    "number": "12",
+    "number": "16",
     "title": "Ive Got A Place In The Stars",
     "slug": "ive-got-a-place-in-the-stars",
     "stream": "music/ive-got-a-place-in-the-stars.mp3",
@@ -108,7 +144,7 @@
     "collection": "solo"
   },
   {
-    "number": "13",
+    "number": "17",
     "title": "Leaving Mercury",
     "slug": "leaving-mercury",
     "stream": "music/leaving-mercury.mp3",
@@ -117,7 +153,7 @@
     "collection": "solo"
   },
   {
-    "number": "14",
+    "number": "18",
     "title": "Loving You (Is Never Enough)",
     "slug": "loving-you-is-never-enough",
     "stream": "music/loving-you-is-never-enough.mp3",
@@ -126,7 +162,7 @@
     "collection": "solo"
   },
   {
-    "number": "15",
+    "number": "19",
     "title": "No Rights",
     "slug": "no-rights",
     "stream": "music/no-rights.mp3",
@@ -135,7 +171,7 @@
     "collection": "solo"
   },
   {
-    "number": "16",
+    "number": "20",
     "title": "Oh, Starling",
     "slug": "oh-starling",
     "stream": "music/oh_starling.mp3",
@@ -144,7 +180,7 @@
     "collection": "solo"
   },
   {
-    "number": "17",
+    "number": "21",
     "title": "One Last Embrace",
     "slug": "one-last-embrace",
     "stream": "music/one-last-embrace.mp3",
@@ -153,7 +189,7 @@
     "collection": "solo"
   },
   {
-    "number": "18",
+    "number": "22",
     "title": "Open Soldier",
     "slug": "open-soldier",
     "stream": "music/open-soldier.mp3",
@@ -162,7 +198,7 @@
     "collection": "solo"
   },
   {
-    "number": "19",
+    "number": "23",
     "title": "Origin",
     "slug": "origin",
     "stream": "music/origin.mp3",
@@ -171,7 +207,7 @@
     "collection": "solo"
   },
   {
-    "number": "20",
+    "number": "24",
     "title": "Panic",
     "slug": "panic",
     "stream": "music/panic.mp3",
@@ -180,7 +216,7 @@
     "collection": "solo"
   },
   {
-    "number": "21",
+    "number": "25",
     "title": "Pick Up Your Swords",
     "slug": "pick-up-your-swords",
     "stream": "music/pick-up-your-swords.mp3",
@@ -189,7 +225,7 @@
     "collection": "solo"
   },
   {
-    "number": "22",
+    "number": "26",
     "title": "Please Dont Go To The Bar",
     "slug": "please-dont-go-to-the-bar",
     "stream": "music/please-dont-go-to-the-bar.mp3",
@@ -198,7 +234,16 @@
     "collection": "solo"
   },
   {
-    "number": "23",
+    "number": "27",
+    "title": "Power of the Ultraball by the Fighting Moongooses",
+    "slug": "power-of-the-ultra-ball-by-the-fighting-moongooses",
+    "stream": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3",
+    "mp3": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3",
+    "wav": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.wav",
+    "collection": "solo"
+  },
+  {
+    "number": "28",
     "title": "Reflef",
     "slug": "reflef",
     "stream": "music/reflef.mp3",
@@ -207,7 +252,7 @@
     "collection": "solo"
   },
   {
-    "number": "24",
+    "number": "29",
     "title": "Sam's Song",
     "slug": "sams-song",
     "stream": "music/sams-song.mp3",
@@ -216,7 +261,7 @@
     "collection": "solo"
   },
   {
-    "number": "25",
+    "number": "30",
     "title": "Saying Nothing And Talking Loud",
     "slug": "saying-nothing-and-talking-loud",
     "stream": "music/saying-nothing-and-talking-loud.mp3",
@@ -225,7 +270,7 @@
     "collection": "solo"
   },
   {
-    "number": "26",
+    "number": "31",
     "title": "Solo Train",
     "slug": "solo-train",
     "stream": "music/solo-train.mp3",
@@ -234,7 +279,7 @@
     "collection": "solo"
   },
   {
-    "number": "27",
+    "number": "32",
     "title": "Sorrow",
     "slug": "sorrow",
     "stream": "music/sorrow.mp3",
@@ -243,7 +288,7 @@
     "collection": "solo"
   },
   {
-    "number": "28",
+    "number": "33",
     "title": "Sounds From Tuesday Evening",
     "slug": "sounds-from-tuesday-evening",
     "stream": "music/sounds-from-tuesday-evening.mp3",
@@ -252,7 +297,7 @@
     "collection": "solo"
   },
   {
-    "number": "29",
+    "number": "34",
     "title": "Sounds Of Nature",
     "slug": "sounds-of-nature",
     "stream": "music/sounds-of-nature.mp3",
@@ -261,7 +306,7 @@
     "collection": "solo"
   },
   {
-    "number": "30",
+    "number": "35",
     "title": "The Final Imploration",
     "slug": "the-final-imploration",
     "stream": "music/the-final-imploration.mp3",
@@ -270,7 +315,7 @@
     "collection": "solo"
   },
   {
-    "number": "31",
+    "number": "36",
     "title": "The Forgotton Chamber",
     "slug": "the-forgotton-chamber",
     "stream": "music/the-forgotton-chamber.mp3",
@@ -279,7 +324,7 @@
     "collection": "solo"
   },
   {
-    "number": "32",
+    "number": "37",
     "title": "The Mystic Rambler",
     "slug": "the-mystic-rambler",
     "stream": "music/the-mystic-rambler.mp3",
@@ -288,7 +333,7 @@
     "collection": "solo"
   },
   {
-    "number": "33",
+    "number": "38",
     "title": "The Wolf Song",
     "slug": "the-wolf-song",
     "stream": "music/the-wolf-song.mp3",
@@ -297,7 +342,7 @@
     "collection": "solo"
   },
   {
-    "number": "34",
+    "number": "39",
     "title": "Thursday At 741 Pm",
     "slug": "thursday-at-741-pm",
     "stream": "music/thursday-at-741-pm.mp3",
@@ -306,7 +351,7 @@
     "collection": "solo"
   },
   {
-    "number": "35",
+    "number": "40",
     "title": "Uniquely Ason",
     "slug": "uniquely-ason",
     "stream": "music/uniquely-ason.mp3",
@@ -315,7 +360,7 @@
     "collection": "solo"
   },
   {
-    "number": "36",
+    "number": "41",
     "title": "Valhalla And Helheim",
     "slug": "valhalla-and-helheim",
     "stream": "music/valhalla-and-helheim.mp3",
@@ -324,7 +369,7 @@
     "collection": "solo"
   },
   {
-    "number": "37",
+    "number": "42",
     "title": "Vegas",
     "slug": "vegas",
     "stream": "music/vegas.mp3",
@@ -333,7 +378,7 @@
     "collection": "solo"
   },
   {
-    "number": "38",
+    "number": "43",
     "title": "Void Thoughts",
     "slug": "void-thoughts",
     "stream": "music/void-thoughts.mp3",
@@ -342,7 +387,7 @@
     "collection": "solo"
   },
   {
-    "number": "39",
+    "number": "44",
     "title": "When Will The Days Interlude Valhalla",
     "slug": "when-will-the-days-interlude-valhalla",
     "stream": "music/when-will-the-days-interlude-valhalla.mp3",
@@ -351,7 +396,7 @@
     "collection": "solo"
   },
   {
-    "number": "40",
+    "number": "45",
     "title": "Whiskey",
     "slug": "whiskey",
     "stream": "music/whiskey.mp3",
@@ -360,7 +405,7 @@
     "collection": "solo"
   },
   {
-    "number": "41",
+    "number": "46",
     "title": "Yaht Rock",
     "slug": "yaht-rock",
     "stream": "music/yaht-rock.mp3",
