@@ -27,7 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260809-4">
+  <link rel="stylesheet" href="assets/style.css?v=20260929-1">
   <script type="application/ld+json">/*__STRUCTURED_DATA__*/{}</script>
 </head>
 <body>
@@ -87,6 +87,10 @@
           <span>Find transmission</span>
           <input id="track-search" type="search" placeholder="Type a title…" autocomplete="off">
         </label>
+        <div class="archive-filters" role="group" aria-label="Filter transmissions">
+          <button type="button" class="is-active" data-track-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-track-filter="new" aria-pressed="false">New <span>__NEW_COUNT__</span></button>
+        </div>
         <div class="archive-readout">
           <span id="visible-count">__TRACK_COUNT__</span>
           <small>signals visible</small>
@@ -213,6 +217,6 @@
 
   <audio id="audio" preload="metadata"></audio>
   <script>window.WFE_TRACKS = /*__TRACK_DATA__*/[];</script>
-  <script src="assets/site.js?v=20260809-3" defer></script>
+  <script src="assets/site.js?v=20260929-1" defer></script>
 </body>
 </html>

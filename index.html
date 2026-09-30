@@ -27,7 +27,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260809-4">
+  <link rel="stylesheet" href="assets/style.css?v=20260929-1">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -859,6 +859,10 @@
           <span>Find transmission</span>
           <input id="track-search" type="search" placeholder="Type a title…" autocomplete="off">
         </label>
+        <div class="archive-filters" role="group" aria-label="Filter transmissions">
+          <button type="button" class="is-active" data-track-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-track-filter="new" aria-pressed="false">New <span>5</span></button>
+        </div>
         <div class="archive-readout">
           <span id="visible-count">53</span>
           <small>signals visible</small>
@@ -867,7 +871,7 @@
       </div>
 
       <div class="track-list" id="track-list">
-        <article class="track" id="track-alexanders-desert-march" data-index="0" data-search="alexanders desert march">
+        <article class="track" id="track-alexanders-desert-march" data-index="0" data-search="alexanders desert march" data-new="false">
       <button class="track__play" type="button" data-play="0" aria-label="Play Alexanders Desert March">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -881,7 +885,7 @@
         <a href="music/alexanders-desert-march.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-an-imploration" data-index="1" data-search="an imploration">
+<article class="track" id="track-an-imploration" data-index="1" data-search="an imploration" data-new="false">
       <button class="track__play" type="button" data-play="1" aria-label="Play An Imploration">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -895,7 +899,7 @@
         <a href="music/an-imploration.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-blood-and-love" data-index="2" data-search="blood and love">
+<article class="track" id="track-blood-and-love" data-index="2" data-search="blood and love" data-new="false">
       <button class="track__play" type="button" data-play="2" aria-label="Play Blood And Love">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -909,7 +913,7 @@
         <a href="music/blood-and-love.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-clap" data-index="3" data-search="clap">
+<article class="track" id="track-clap" data-index="3" data-search="clap" data-new="false">
       <button class="track__play" type="button" data-play="3" aria-label="Play Clap">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -923,7 +927,7 @@
         <a href="music/clap.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-days-are-all-ive-ever-had" data-index="4" data-search="days are all ive ever had">
+<article class="track" id="track-days-are-all-ive-ever-had" data-index="4" data-search="days are all ive ever had" data-new="false">
       <button class="track__play" type="button" data-play="4" aria-label="Play Days Are All Ive Ever Had">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -937,7 +941,7 @@
         <a href="music/days-are-all-ive-ever-had.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-dirty-number-3" data-index="5" data-search="dirty number 3">
+<article class="track" id="track-dirty-number-3" data-index="5" data-search="dirty number 3" data-new="false">
       <button class="track__play" type="button" data-play="5" aria-label="Play Dirty Number 3">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -951,7 +955,7 @@
         <a href="music/dirty-number-3.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-easter-day" data-index="6" data-search="easter day">
+<article class="track" id="track-easter-day" data-index="6" data-search="easter day" data-new="false">
       <button class="track__play" type="button" data-play="6" aria-label="Play Easter Day">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -965,7 +969,7 @@
         <a href="music/easter-day.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-friday-at-831-pm" data-index="7" data-search="friday at 831 pm">
+<article class="track" id="track-friday-at-831-pm" data-index="7" data-search="friday at 831 pm" data-new="false">
       <button class="track__play" type="button" data-play="7" aria-label="Play Friday At 831 Pm">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -979,21 +983,21 @@
         <a href="music/friday-at-831-pm.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-further-in-the-forest" data-index="8" data-search="further in the forest">
+<article class="track" id="track-further-in-the-forest" data-index="8" data-search="further in the forest" data-new="true">
       <button class="track__play" type="button" data-play="8" aria-label="Play Further in the Forest">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>09</div>
       <div class="track__signal"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
-      <h3>Further in the Forest</h3>
+      <h3>Further in the Forest<span class="track__new">New</span></h3>
       <div class="track__actions">
         <button type="button" data-play="8">Stream</button>
         <a href="music/further-in-the-forest.wav" download>WAV</a>
         <a href="music/further-in-the-forest.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-guitar-loop" data-index="9" data-search="guitar loop">
+<article class="track" id="track-guitar-loop" data-index="9" data-search="guitar loop" data-new="false">
       <button class="track__play" type="button" data-play="9" aria-label="Play Guitar Loop">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1007,7 +1011,7 @@
         <a href="music/guitar-loop.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-hello-and-goodbye" data-index="10" data-search="hello and goodbye">
+<article class="track" id="track-hello-and-goodbye" data-index="10" data-search="hello and goodbye" data-new="false">
       <button class="track__play" type="button" data-play="10" aria-label="Play Hello And Goodbye">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1021,49 +1025,49 @@
         <a href="music/hello-and-goodbye.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-henry-by-the-fighting-moongooses" data-index="11" data-search="henry by the fighting moongooses">
+<article class="track" id="track-henry-by-the-fighting-moongooses" data-index="11" data-search="henry by the fighting moongooses" data-new="true">
       <button class="track__play" type="button" data-play="11" aria-label="Play Henry by the Fighting Moongooses">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>12</div>
       <div class="track__signal"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
-      <h3>Henry by the Fighting Moongooses</h3>
+      <h3>Henry by the Fighting Moongooses<span class="track__new">New</span></h3>
       <div class="track__actions">
         <button type="button" data-play="11">Stream</button>
         <a href="music/henry-by-the-fighting-moongooses.wav" download>WAV</a>
         <a href="music/henry-by-the-fighting-moongooses.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-henry-ive-known-you" data-index="12" data-search="henry i&#x27;ve known you">
+<article class="track" id="track-henry-ive-known-you" data-index="12" data-search="henry i&#x27;ve known you" data-new="true">
       <button class="track__play" type="button" data-play="12" aria-label="Play Henry I&#x27;ve Known You">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>13</div>
       <div class="track__signal"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
-      <h3>Henry I&#x27;ve Known You</h3>
+      <h3>Henry I&#x27;ve Known You<span class="track__new">New</span></h3>
       <div class="track__actions">
         <button type="button" data-play="12">Stream</button>
         <a href="music/henry-ive-known-you.wav" download>WAV</a>
         <a href="music/henry-ive-known-you.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-henry-poopy-potty" data-index="13" data-search="henry poopy potty">
+<article class="track" id="track-henry-poopy-potty" data-index="13" data-search="henry poopy potty" data-new="true">
       <button class="track__play" type="button" data-play="13" aria-label="Play Henry Poopy Potty">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>14</div>
       <div class="track__signal"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
-      <h3>Henry Poopy Potty</h3>
+      <h3>Henry Poopy Potty<span class="track__new">New</span></h3>
       <div class="track__actions">
         <button type="button" data-play="13">Stream</button>
         <a href="music/henry-poopy-potty.wav" download>WAV</a>
         <a href="music/henry-poopy-potty.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-it-helps-masterchannel" data-index="14" data-search="it helps">
+<article class="track" id="track-it-helps-masterchannel" data-index="14" data-search="it helps" data-new="false">
       <button class="track__play" type="button" data-play="14" aria-label="Play It Helps">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1077,7 +1081,7 @@
         <a href="music/it-helps_Masterchannel.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-ive-got-a-place-in-the-stars" data-index="15" data-search="ive got a place in the stars">
+<article class="track" id="track-ive-got-a-place-in-the-stars" data-index="15" data-search="ive got a place in the stars" data-new="false">
       <button class="track__play" type="button" data-play="15" aria-label="Play Ive Got A Place In The Stars">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1091,7 +1095,7 @@
         <a href="music/ive-got-a-place-in-the-stars.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-leaving-mercury" data-index="16" data-search="leaving mercury">
+<article class="track" id="track-leaving-mercury" data-index="16" data-search="leaving mercury" data-new="false">
       <button class="track__play" type="button" data-play="16" aria-label="Play Leaving Mercury">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1105,7 +1109,7 @@
         <a href="music/leaving-mercury.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-loving-you-is-never-enough" data-index="17" data-search="loving you (is never enough)">
+<article class="track" id="track-loving-you-is-never-enough" data-index="17" data-search="loving you (is never enough)" data-new="false">
       <button class="track__play" type="button" data-play="17" aria-label="Play Loving You (Is Never Enough)">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1119,7 +1123,7 @@
         <a href="music/loving-you-is-never-enough.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-no-rights" data-index="18" data-search="no rights">
+<article class="track" id="track-no-rights" data-index="18" data-search="no rights" data-new="false">
       <button class="track__play" type="button" data-play="18" aria-label="Play No Rights">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1133,7 +1137,7 @@
         <a href="music/no-rights.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-oh-starling" data-index="19" data-search="oh, starling">
+<article class="track" id="track-oh-starling" data-index="19" data-search="oh, starling" data-new="false">
       <button class="track__play" type="button" data-play="19" aria-label="Play Oh, Starling">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1147,7 +1151,7 @@
         <a href="music/oh_starling.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-one-last-embrace" data-index="20" data-search="one last embrace">
+<article class="track" id="track-one-last-embrace" data-index="20" data-search="one last embrace" data-new="false">
       <button class="track__play" type="button" data-play="20" aria-label="Play One Last Embrace">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1161,7 +1165,7 @@
         <a href="music/one-last-embrace.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-open-soldier" data-index="21" data-search="open soldier">
+<article class="track" id="track-open-soldier" data-index="21" data-search="open soldier" data-new="false">
       <button class="track__play" type="button" data-play="21" aria-label="Play Open Soldier">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1175,7 +1179,7 @@
         <a href="music/open-soldier.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-origin" data-index="22" data-search="origin">
+<article class="track" id="track-origin" data-index="22" data-search="origin" data-new="false">
       <button class="track__play" type="button" data-play="22" aria-label="Play Origin">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1189,7 +1193,7 @@
         <a href="music/origin.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-panic" data-index="23" data-search="panic">
+<article class="track" id="track-panic" data-index="23" data-search="panic" data-new="false">
       <button class="track__play" type="button" data-play="23" aria-label="Play Panic">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1203,7 +1207,7 @@
         <a href="music/panic.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-pick-up-your-swords" data-index="24" data-search="pick up your swords">
+<article class="track" id="track-pick-up-your-swords" data-index="24" data-search="pick up your swords" data-new="false">
       <button class="track__play" type="button" data-play="24" aria-label="Play Pick Up Your Swords">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1217,7 +1221,7 @@
         <a href="music/pick-up-your-swords.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-please-dont-go-to-the-bar" data-index="25" data-search="please dont go to the bar">
+<article class="track" id="track-please-dont-go-to-the-bar" data-index="25" data-search="please dont go to the bar" data-new="false">
       <button class="track__play" type="button" data-play="25" aria-label="Play Please Dont Go To The Bar">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1231,21 +1235,21 @@
         <a href="music/please-dont-go-to-the-bar.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-power-of-the-ultra-ball-by-the-fighting-moongooses" data-index="26" data-search="power of the ultraball by the fighting moongooses">
+<article class="track" id="track-power-of-the-ultra-ball-by-the-fighting-moongooses" data-index="26" data-search="power of the ultraball by the fighting moongooses" data-new="true">
       <button class="track__play" type="button" data-play="26" aria-label="Play Power of the Ultraball by the Fighting Moongooses">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>27</div>
       <div class="track__signal"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></div>
-      <h3>Power of the Ultraball by the Fighting Moongooses</h3>
+      <h3>Power of the Ultraball by the Fighting Moongooses<span class="track__new">New</span></h3>
       <div class="track__actions">
         <button type="button" data-play="26">Stream</button>
         <a href="music/power-of-the-ultra-ball-by-the-fighting-moongooses.wav" download>WAV</a>
         <a href="music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-reflef" data-index="27" data-search="reflef">
+<article class="track" id="track-reflef" data-index="27" data-search="reflef" data-new="false">
       <button class="track__play" type="button" data-play="27" aria-label="Play Reflef">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1259,7 +1263,7 @@
         <a href="music/reflef.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-sams-song" data-index="28" data-search="sam&#x27;s song">
+<article class="track" id="track-sams-song" data-index="28" data-search="sam&#x27;s song" data-new="false">
       <button class="track__play" type="button" data-play="28" aria-label="Play Sam&#x27;s Song">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1273,7 +1277,7 @@
         <a href="music/sams-song.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-saying-nothing-and-talking-loud" data-index="29" data-search="saying nothing and talking loud">
+<article class="track" id="track-saying-nothing-and-talking-loud" data-index="29" data-search="saying nothing and talking loud" data-new="false">
       <button class="track__play" type="button" data-play="29" aria-label="Play Saying Nothing And Talking Loud">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1287,7 +1291,7 @@
         <a href="music/saying-nothing-and-talking-loud.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-solo-train" data-index="30" data-search="solo train">
+<article class="track" id="track-solo-train" data-index="30" data-search="solo train" data-new="false">
       <button class="track__play" type="button" data-play="30" aria-label="Play Solo Train">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1301,7 +1305,7 @@
         <a href="music/solo-train.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-sorrow" data-index="31" data-search="sorrow">
+<article class="track" id="track-sorrow" data-index="31" data-search="sorrow" data-new="false">
       <button class="track__play" type="button" data-play="31" aria-label="Play Sorrow">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1315,7 +1319,7 @@
         <a href="music/sorrow.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-sounds-from-tuesday-evening" data-index="32" data-search="sounds from tuesday evening">
+<article class="track" id="track-sounds-from-tuesday-evening" data-index="32" data-search="sounds from tuesday evening" data-new="false">
       <button class="track__play" type="button" data-play="32" aria-label="Play Sounds From Tuesday Evening">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1329,7 +1333,7 @@
         <a href="music/sounds-from-tuesday-evening.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-sounds-of-nature" data-index="33" data-search="sounds of nature">
+<article class="track" id="track-sounds-of-nature" data-index="33" data-search="sounds of nature" data-new="false">
       <button class="track__play" type="button" data-play="33" aria-label="Play Sounds Of Nature">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1343,7 +1347,7 @@
         <a href="music/sounds-of-nature.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-the-final-imploration" data-index="34" data-search="the final imploration">
+<article class="track" id="track-the-final-imploration" data-index="34" data-search="the final imploration" data-new="false">
       <button class="track__play" type="button" data-play="34" aria-label="Play The Final Imploration">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1357,7 +1361,7 @@
         <a href="music/the-final-imploration.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-the-forgotton-chamber" data-index="35" data-search="the forgotton chamber">
+<article class="track" id="track-the-forgotton-chamber" data-index="35" data-search="the forgotton chamber" data-new="false">
       <button class="track__play" type="button" data-play="35" aria-label="Play The Forgotton Chamber">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1371,7 +1375,7 @@
         <a href="music/the-forgotton-chamber.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-the-mystic-rambler" data-index="36" data-search="the mystic rambler">
+<article class="track" id="track-the-mystic-rambler" data-index="36" data-search="the mystic rambler" data-new="false">
       <button class="track__play" type="button" data-play="36" aria-label="Play The Mystic Rambler">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1385,7 +1389,7 @@
         <a href="music/the-mystic-rambler.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-the-wolf-song" data-index="37" data-search="the wolf song">
+<article class="track" id="track-the-wolf-song" data-index="37" data-search="the wolf song" data-new="false">
       <button class="track__play" type="button" data-play="37" aria-label="Play The Wolf Song">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1399,7 +1403,7 @@
         <a href="music/the-wolf-song.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-thursday-at-741-pm" data-index="38" data-search="thursday at 741 pm">
+<article class="track" id="track-thursday-at-741-pm" data-index="38" data-search="thursday at 741 pm" data-new="false">
       <button class="track__play" type="button" data-play="38" aria-label="Play Thursday At 741 Pm">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1413,7 +1417,7 @@
         <a href="music/thursday-at-741-pm.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-uniquely-ason" data-index="39" data-search="uniquely ason">
+<article class="track" id="track-uniquely-ason" data-index="39" data-search="uniquely ason" data-new="false">
       <button class="track__play" type="button" data-play="39" aria-label="Play Uniquely Ason">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1427,7 +1431,7 @@
         <a href="music/uniquely-ason.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-valhalla-and-helheim" data-index="40" data-search="valhalla and helheim">
+<article class="track" id="track-valhalla-and-helheim" data-index="40" data-search="valhalla and helheim" data-new="false">
       <button class="track__play" type="button" data-play="40" aria-label="Play Valhalla And Helheim">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1441,7 +1445,7 @@
         <a href="music/valhalla-and-helheim.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-vegas" data-index="41" data-search="vegas">
+<article class="track" id="track-vegas" data-index="41" data-search="vegas" data-new="false">
       <button class="track__play" type="button" data-play="41" aria-label="Play Vegas">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1455,7 +1459,7 @@
         <a href="music/vegas.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-void-thoughts" data-index="42" data-search="void thoughts">
+<article class="track" id="track-void-thoughts" data-index="42" data-search="void thoughts" data-new="false">
       <button class="track__play" type="button" data-play="42" aria-label="Play Void Thoughts">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1469,7 +1473,7 @@
         <a href="music/void-thoughts.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-when-will-the-days-interlude-valhalla" data-index="43" data-search="when will the days interlude valhalla">
+<article class="track" id="track-when-will-the-days-interlude-valhalla" data-index="43" data-search="when will the days interlude valhalla" data-new="false">
       <button class="track__play" type="button" data-play="43" aria-label="Play When Will The Days Interlude Valhalla">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1483,7 +1487,7 @@
         <a href="music/when-will-the-days-interlude-valhalla.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-whiskey" data-index="44" data-search="whiskey">
+<article class="track" id="track-whiskey" data-index="44" data-search="whiskey" data-new="false">
       <button class="track__play" type="button" data-play="44" aria-label="Play Whiskey">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1497,7 +1501,7 @@
         <a href="music/whiskey.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-yaht-rock" data-index="45" data-search="yaht rock">
+<article class="track" id="track-yaht-rock" data-index="45" data-search="yaht rock" data-new="false">
       <button class="track__play" type="button" data-play="45" aria-label="Play Yaht Rock">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1525,7 +1529,7 @@
           </div>
         </header>
         <div class="track-list track-list--featured" id="featured-track-list">
-          <article class="track" id="track-karanastic-back-to-the-heart" data-index="46" data-search="back to the heart">
+          <article class="track" id="track-karanastic-back-to-the-heart" data-index="46" data-search="back to the heart" data-new="false">
       <button class="track__play" type="button" data-play="46" aria-label="Play Back To The Heart">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1539,7 +1543,7 @@
         <a href="music/featuring-karanastic/back-to-the-heart.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-made-man" data-index="47" data-search="made man">
+<article class="track" id="track-karanastic-made-man" data-index="47" data-search="made man" data-new="false">
       <button class="track__play" type="button" data-play="47" aria-label="Play Made Man">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1553,7 +1557,7 @@
         <a href="music/featuring-karanastic/made-man.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-riot-in-the-streets" data-index="48" data-search="riot in the streets">
+<article class="track" id="track-karanastic-riot-in-the-streets" data-index="48" data-search="riot in the streets" data-new="false">
       <button class="track__play" type="button" data-play="48" aria-label="Play Riot In The Streets">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1567,7 +1571,7 @@
         <a href="music/featuring-karanastic/riot-in-the-streets.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-the-karanastics-pt-2" data-index="49" data-search="the karanastics pt 2">
+<article class="track" id="track-karanastic-the-karanastics-pt-2" data-index="49" data-search="the karanastics pt 2" data-new="false">
       <button class="track__play" type="button" data-play="49" aria-label="Play The Karanastics Pt 2">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1581,7 +1585,7 @@
         <a href="music/featuring-karanastic/the-karanastics-pt-2.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-the-karanastics" data-index="50" data-search="the karanastics">
+<article class="track" id="track-karanastic-the-karanastics" data-index="50" data-search="the karanastics" data-new="false">
       <button class="track__play" type="button" data-play="50" aria-label="Play The Karanastics">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1595,7 +1599,7 @@
         <a href="music/featuring-karanastic/the-karanastics.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-the-nightcrawler" data-index="51" data-search="the nightcrawler">
+<article class="track" id="track-karanastic-the-nightcrawler" data-index="51" data-search="the nightcrawler" data-new="false">
       <button class="track__play" type="button" data-play="51" aria-label="Play The Nightcrawler">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1609,7 +1613,7 @@
         <a href="music/featuring-karanastic/the-nightcrawler.mp3" download>MP3</a>
       </div>
     </article>
-<article class="track" id="track-karanastic-visions-of-fire" data-index="52" data-search="visions of fire">
+<article class="track" id="track-karanastic-visions-of-fire" data-index="52" data-search="visions of fire" data-new="false">
       <button class="track__play" type="button" data-play="52" aria-label="Play Visions Of Fire">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
@@ -1724,7 +1728,7 @@
   </aside>
 
   <audio id="audio" preload="metadata"></audio>
-  <script>window.WFE_TRACKS = [{"number": "01", "title": "Alexanders Desert March", "slug": "alexanders-desert-march", "stream": "music/alexanders-desert-march.mp3", "mp3": "music/alexanders-desert-march.mp3", "wav": "music/alexanders-desert-march.wav", "collection": "solo"}, {"number": "02", "title": "An Imploration", "slug": "an-imploration", "stream": "music/an-imploration.mp3", "mp3": "music/an-imploration.mp3", "wav": "music/an-imploration.wav", "collection": "solo"}, {"number": "03", "title": "Blood And Love", "slug": "blood-and-love", "stream": "music/blood-and-love.mp3", "mp3": "music/blood-and-love.mp3", "wav": "music/blood-and-love.wav", "collection": "solo"}, {"number": "04", "title": "Clap", "slug": "clap", "stream": "music/clap.mp3", "mp3": "music/clap.mp3", "wav": "music/clap.wav", "collection": "solo"}, {"number": "05", "title": "Days Are All Ive Ever Had", "slug": "days-are-all-ive-ever-had", "stream": "music/days-are-all-ive-ever-had.mp3", "mp3": "music/days-are-all-ive-ever-had.mp3", "wav": "music/days-are-all-ive-ever-had.wav", "collection": "solo"}, {"number": "06", "title": "Dirty Number 3", "slug": "dirty-number-3", "stream": "music/dirty-number-3.mp3", "mp3": "music/dirty-number-3.mp3", "wav": "music/dirty-number-3.wav", "collection": "solo"}, {"number": "07", "title": "Easter Day", "slug": "easter-day", "stream": "music/easter-day.mp3", "mp3": "music/easter-day.mp3", "wav": "music/easter-day.wav", "collection": "solo"}, {"number": "08", "title": "Friday At 831 Pm", "slug": "friday-at-831-pm", "stream": "music/friday-at-831-pm.mp3", "mp3": "music/friday-at-831-pm.mp3", "wav": "music/friday-at-831-pm.wav", "collection": "solo"}, {"number": "09", "title": "Further in the Forest", "slug": "further-in-the-forest", "stream": "music/further-in-the-forest.mp3", "mp3": "music/further-in-the-forest.mp3", "wav": "music/further-in-the-forest.wav", "collection": "solo"}, {"number": "10", "title": "Guitar Loop", "slug": "guitar-loop", "stream": "music/guitar-loop.mp3", "mp3": "music/guitar-loop.mp3", "wav": "music/guitar-loop.wav", "collection": "solo"}, {"number": "11", "title": "Hello And Goodbye", "slug": "hello-and-goodbye", "stream": "music/hello-and-goodbye.mp3", "mp3": "music/hello-and-goodbye.mp3", "wav": "music/hello-and-goodbye.wav", "collection": "solo"}, {"number": "12", "title": "Henry by the Fighting Moongooses", "slug": "henry-by-the-fighting-moongooses", "stream": "music/henry-by-the-fighting-moongooses.mp3", "mp3": "music/henry-by-the-fighting-moongooses.mp3", "wav": "music/henry-by-the-fighting-moongooses.wav", "collection": "solo"}, {"number": "13", "title": "Henry I've Known You", "slug": "henry-ive-known-you", "stream": "music/henry-ive-known-you.mp3", "mp3": "music/henry-ive-known-you.mp3", "wav": "music/henry-ive-known-you.wav", "collection": "solo"}, {"number": "14", "title": "Henry Poopy Potty", "slug": "henry-poopy-potty", "stream": "music/henry-poopy-potty.mp3", "mp3": "music/henry-poopy-potty.mp3", "wav": "music/henry-poopy-potty.wav", "collection": "solo"}, {"number": "15", "title": "It Helps", "slug": "it-helps-masterchannel", "stream": "music/it-helps_Masterchannel.mp3", "mp3": "music/it-helps_Masterchannel.mp3", "wav": "music/it-helps_Masterchannel.wav", "collection": "solo"}, {"number": "16", "title": "Ive Got A Place In The Stars", "slug": "ive-got-a-place-in-the-stars", "stream": "music/ive-got-a-place-in-the-stars.mp3", "mp3": "music/ive-got-a-place-in-the-stars.mp3", "wav": "music/ive-got-a-place-in-the-stars.wav", "collection": "solo"}, {"number": "17", "title": "Leaving Mercury", "slug": "leaving-mercury", "stream": "music/leaving-mercury.mp3", "mp3": "music/leaving-mercury.mp3", "wav": "music/leaving-mercury.wav", "collection": "solo"}, {"number": "18", "title": "Loving You (Is Never Enough)", "slug": "loving-you-is-never-enough", "stream": "music/loving-you-is-never-enough.mp3", "mp3": "music/loving-you-is-never-enough.mp3", "wav": "music/loving-you-is-never-enough.wav", "collection": "solo"}, {"number": "19", "title": "No Rights", "slug": "no-rights", "stream": "music/no-rights.mp3", "mp3": "music/no-rights.mp3", "wav": "music/no-rights.wav", "collection": "solo"}, {"number": "20", "title": "Oh, Starling", "slug": "oh-starling", "stream": "music/oh_starling.mp3", "mp3": "music/oh_starling.mp3", "wav": "music/oh_starling.wav", "collection": "solo"}, {"number": "21", "title": "One Last Embrace", "slug": "one-last-embrace", "stream": "music/one-last-embrace.mp3", "mp3": "music/one-last-embrace.mp3", "wav": "music/one-last-embrace.wav", "collection": "solo"}, {"number": "22", "title": "Open Soldier", "slug": "open-soldier", "stream": "music/open-soldier.mp3", "mp3": "music/open-soldier.mp3", "wav": "music/open-soldier.wav", "collection": "solo"}, {"number": "23", "title": "Origin", "slug": "origin", "stream": "music/origin.mp3", "mp3": "music/origin.mp3", "wav": "music/origin.wav", "collection": "solo"}, {"number": "24", "title": "Panic", "slug": "panic", "stream": "music/panic.mp3", "mp3": "music/panic.mp3", "wav": "music/panic.wav", "collection": "solo"}, {"number": "25", "title": "Pick Up Your Swords", "slug": "pick-up-your-swords", "stream": "music/pick-up-your-swords.mp3", "mp3": "music/pick-up-your-swords.mp3", "wav": "music/pick-up-your-swords.wav", "collection": "solo"}, {"number": "26", "title": "Please Dont Go To The Bar", "slug": "please-dont-go-to-the-bar", "stream": "music/please-dont-go-to-the-bar.mp3", "mp3": "music/please-dont-go-to-the-bar.mp3", "wav": "music/please-dont-go-to-the-bar.wav", "collection": "solo"}, {"number": "27", "title": "Power of the Ultraball by the Fighting Moongooses", "slug": "power-of-the-ultra-ball-by-the-fighting-moongooses", "stream": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3", "mp3": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3", "wav": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.wav", "collection": "solo"}, {"number": "28", "title": "Reflef", "slug": "reflef", "stream": "music/reflef.mp3", "mp3": "music/reflef.mp3", "wav": "music/reflef.wav", "collection": "solo"}, {"number": "29", "title": "Sam's Song", "slug": "sams-song", "stream": "music/sams-song.mp3", "mp3": "music/sams-song.mp3", "wav": "music/sams-song.wav", "collection": "solo"}, {"number": "30", "title": "Saying Nothing And Talking Loud", "slug": "saying-nothing-and-talking-loud", "stream": "music/saying-nothing-and-talking-loud.mp3", "mp3": "music/saying-nothing-and-talking-loud.mp3", "wav": "music/saying-nothing-and-talking-loud.wav", "collection": "solo"}, {"number": "31", "title": "Solo Train", "slug": "solo-train", "stream": "music/solo-train.mp3", "mp3": "music/solo-train.mp3", "wav": "music/solo-train.wav", "collection": "solo"}, {"number": "32", "title": "Sorrow", "slug": "sorrow", "stream": "music/sorrow.mp3", "mp3": "music/sorrow.mp3", "wav": "music/sorrow.wav", "collection": "solo"}, {"number": "33", "title": "Sounds From Tuesday Evening", "slug": "sounds-from-tuesday-evening", "stream": "music/sounds-from-tuesday-evening.mp3", "mp3": "music/sounds-from-tuesday-evening.mp3", "wav": "music/sounds-from-tuesday-evening.wav", "collection": "solo"}, {"number": "34", "title": "Sounds Of Nature", "slug": "sounds-of-nature", "stream": "music/sounds-of-nature.mp3", "mp3": "music/sounds-of-nature.mp3", "wav": "music/sounds-of-nature.wav", "collection": "solo"}, {"number": "35", "title": "The Final Imploration", "slug": "the-final-imploration", "stream": "music/the-final-imploration.mp3", "mp3": "music/the-final-imploration.mp3", "wav": "music/the-final-imploration.wav", "collection": "solo"}, {"number": "36", "title": "The Forgotton Chamber", "slug": "the-forgotton-chamber", "stream": "music/the-forgotton-chamber.mp3", "mp3": "music/the-forgotton-chamber.mp3", "wav": "music/the-forgotton-chamber.wav", "collection": "solo"}, {"number": "37", "title": "The Mystic Rambler", "slug": "the-mystic-rambler", "stream": "music/the-mystic-rambler.mp3", "mp3": "music/the-mystic-rambler.mp3", "wav": "music/the-mystic-rambler.wav", "collection": "solo"}, {"number": "38", "title": "The Wolf Song", "slug": "the-wolf-song", "stream": "music/the-wolf-song.mp3", "mp3": "music/the-wolf-song.mp3", "wav": "music/the-wolf-song.wav", "collection": "solo"}, {"number": "39", "title": "Thursday At 741 Pm", "slug": "thursday-at-741-pm", "stream": "music/thursday-at-741-pm.mp3", "mp3": "music/thursday-at-741-pm.mp3", "wav": "music/thursday-at-741-pm.wav", "collection": "solo"}, {"number": "40", "title": "Uniquely Ason", "slug": "uniquely-ason", "stream": "music/uniquely-ason.mp3", "mp3": "music/uniquely-ason.mp3", "wav": "music/uniquely-ason.wav", "collection": "solo"}, {"number": "41", "title": "Valhalla And Helheim", "slug": "valhalla-and-helheim", "stream": "music/valhalla-and-helheim.mp3", "mp3": "music/valhalla-and-helheim.mp3", "wav": "music/valhalla-and-helheim.wav", "collection": "solo"}, {"number": "42", "title": "Vegas", "slug": "vegas", "stream": "music/vegas.mp3", "mp3": "music/vegas.mp3", "wav": "music/vegas.wav", "collection": "solo"}, {"number": "43", "title": "Void Thoughts", "slug": "void-thoughts", "stream": "music/void-thoughts.mp3", "mp3": "music/void-thoughts.mp3", "wav": "music/void-thoughts.wav", "collection": "solo"}, {"number": "44", "title": "When Will The Days Interlude Valhalla", "slug": "when-will-the-days-interlude-valhalla", "stream": "music/when-will-the-days-interlude-valhalla.mp3", "mp3": "music/when-will-the-days-interlude-valhalla.mp3", "wav": "music/when-will-the-days-interlude-valhalla.wav", "collection": "solo"}, {"number": "45", "title": "Whiskey", "slug": "whiskey", "stream": "music/whiskey.mp3", "mp3": "music/whiskey.mp3", "wav": "music/whiskey.wav", "collection": "solo"}, {"number": "46", "title": "Yaht Rock", "slug": "yaht-rock", "stream": "music/yaht-rock.mp3", "mp3": "music/yaht-rock.mp3", "wav": "music/yaht-rock.wav", "collection": "solo"}, {"number": "K01", "title": "Back To The Heart", "slug": "karanastic-back-to-the-heart", "stream": "music/featuring-karanastic/back-to-the-heart.mp3", "mp3": "music/featuring-karanastic/back-to-the-heart.mp3", "wav": "music/featuring-karanastic/back-to-the-heart.wav", "collection": "karanastic"}, {"number": "K02", "title": "Made Man", "slug": "karanastic-made-man", "stream": "music/featuring-karanastic/made-man.mp3", "mp3": "music/featuring-karanastic/made-man.mp3", "wav": "music/featuring-karanastic/made-man.wav", "collection": "karanastic"}, {"number": "K03", "title": "Riot In The Streets", "slug": "karanastic-riot-in-the-streets", "stream": "music/featuring-karanastic/riot-in-the-streets.mp3", "mp3": "music/featuring-karanastic/riot-in-the-streets.mp3", "wav": "music/featuring-karanastic/riot-in-the-streets.wav", "collection": "karanastic"}, {"number": "K04", "title": "The Karanastics Pt 2", "slug": "karanastic-the-karanastics-pt-2", "stream": "music/featuring-karanastic/the-karanastics-pt-2.mp3", "mp3": "music/featuring-karanastic/the-karanastics-pt-2.mp3", "wav": "music/featuring-karanastic/the-karanastics-pt-2.wav", "collection": "karanastic"}, {"number": "K05", "title": "The Karanastics", "slug": "karanastic-the-karanastics", "stream": "music/featuring-karanastic/the-karanastics.mp3", "mp3": "music/featuring-karanastic/the-karanastics.mp3", "wav": "music/featuring-karanastic/the-karanastics.wav", "collection": "karanastic"}, {"number": "K06", "title": "The Nightcrawler", "slug": "karanastic-the-nightcrawler", "stream": "music/featuring-karanastic/the-nightcrawler.mp3", "mp3": "music/featuring-karanastic/the-nightcrawler.mp3", "wav": "music/featuring-karanastic/the-nightcrawler.wav", "collection": "karanastic"}, {"number": "K07", "title": "Visions Of Fire", "slug": "karanastic-visions-of-fire", "stream": "music/featuring-karanastic/visions-of-fire.mp3", "mp3": "music/featuring-karanastic/visions-of-fire.mp3", "wav": "music/featuring-karanastic/visions-of-fire.wav", "collection": "karanastic"}];</script>
-  <script src="assets/site.js?v=20260809-3" defer></script>
+  <script>window.WFE_TRACKS = [{"number": "01", "title": "Alexanders Desert March", "slug": "alexanders-desert-march", "stream": "music/alexanders-desert-march.mp3", "mp3": "music/alexanders-desert-march.mp3", "wav": "music/alexanders-desert-march.wav", "collection": "solo", "is_new": false}, {"number": "02", "title": "An Imploration", "slug": "an-imploration", "stream": "music/an-imploration.mp3", "mp3": "music/an-imploration.mp3", "wav": "music/an-imploration.wav", "collection": "solo", "is_new": false}, {"number": "03", "title": "Blood And Love", "slug": "blood-and-love", "stream": "music/blood-and-love.mp3", "mp3": "music/blood-and-love.mp3", "wav": "music/blood-and-love.wav", "collection": "solo", "is_new": false}, {"number": "04", "title": "Clap", "slug": "clap", "stream": "music/clap.mp3", "mp3": "music/clap.mp3", "wav": "music/clap.wav", "collection": "solo", "is_new": false}, {"number": "05", "title": "Days Are All Ive Ever Had", "slug": "days-are-all-ive-ever-had", "stream": "music/days-are-all-ive-ever-had.mp3", "mp3": "music/days-are-all-ive-ever-had.mp3", "wav": "music/days-are-all-ive-ever-had.wav", "collection": "solo", "is_new": false}, {"number": "06", "title": "Dirty Number 3", "slug": "dirty-number-3", "stream": "music/dirty-number-3.mp3", "mp3": "music/dirty-number-3.mp3", "wav": "music/dirty-number-3.wav", "collection": "solo", "is_new": false}, {"number": "07", "title": "Easter Day", "slug": "easter-day", "stream": "music/easter-day.mp3", "mp3": "music/easter-day.mp3", "wav": "music/easter-day.wav", "collection": "solo", "is_new": false}, {"number": "08", "title": "Friday At 831 Pm", "slug": "friday-at-831-pm", "stream": "music/friday-at-831-pm.mp3", "mp3": "music/friday-at-831-pm.mp3", "wav": "music/friday-at-831-pm.wav", "collection": "solo", "is_new": false}, {"number": "09", "title": "Further in the Forest", "slug": "further-in-the-forest", "stream": "music/further-in-the-forest.mp3", "mp3": "music/further-in-the-forest.mp3", "wav": "music/further-in-the-forest.wav", "collection": "solo", "is_new": true}, {"number": "10", "title": "Guitar Loop", "slug": "guitar-loop", "stream": "music/guitar-loop.mp3", "mp3": "music/guitar-loop.mp3", "wav": "music/guitar-loop.wav", "collection": "solo", "is_new": false}, {"number": "11", "title": "Hello And Goodbye", "slug": "hello-and-goodbye", "stream": "music/hello-and-goodbye.mp3", "mp3": "music/hello-and-goodbye.mp3", "wav": "music/hello-and-goodbye.wav", "collection": "solo", "is_new": false}, {"number": "12", "title": "Henry by the Fighting Moongooses", "slug": "henry-by-the-fighting-moongooses", "stream": "music/henry-by-the-fighting-moongooses.mp3", "mp3": "music/henry-by-the-fighting-moongooses.mp3", "wav": "music/henry-by-the-fighting-moongooses.wav", "collection": "solo", "is_new": true}, {"number": "13", "title": "Henry I've Known You", "slug": "henry-ive-known-you", "stream": "music/henry-ive-known-you.mp3", "mp3": "music/henry-ive-known-you.mp3", "wav": "music/henry-ive-known-you.wav", "collection": "solo", "is_new": true}, {"number": "14", "title": "Henry Poopy Potty", "slug": "henry-poopy-potty", "stream": "music/henry-poopy-potty.mp3", "mp3": "music/henry-poopy-potty.mp3", "wav": "music/henry-poopy-potty.wav", "collection": "solo", "is_new": true}, {"number": "15", "title": "It Helps", "slug": "it-helps-masterchannel", "stream": "music/it-helps_Masterchannel.mp3", "mp3": "music/it-helps_Masterchannel.mp3", "wav": "music/it-helps_Masterchannel.wav", "collection": "solo", "is_new": false}, {"number": "16", "title": "Ive Got A Place In The Stars", "slug": "ive-got-a-place-in-the-stars", "stream": "music/ive-got-a-place-in-the-stars.mp3", "mp3": "music/ive-got-a-place-in-the-stars.mp3", "wav": "music/ive-got-a-place-in-the-stars.wav", "collection": "solo", "is_new": false}, {"number": "17", "title": "Leaving Mercury", "slug": "leaving-mercury", "stream": "music/leaving-mercury.mp3", "mp3": "music/leaving-mercury.mp3", "wav": "music/leaving-mercury.wav", "collection": "solo", "is_new": false}, {"number": "18", "title": "Loving You (Is Never Enough)", "slug": "loving-you-is-never-enough", "stream": "music/loving-you-is-never-enough.mp3", "mp3": "music/loving-you-is-never-enough.mp3", "wav": "music/loving-you-is-never-enough.wav", "collection": "solo", "is_new": false}, {"number": "19", "title": "No Rights", "slug": "no-rights", "stream": "music/no-rights.mp3", "mp3": "music/no-rights.mp3", "wav": "music/no-rights.wav", "collection": "solo", "is_new": false}, {"number": "20", "title": "Oh, Starling", "slug": "oh-starling", "stream": "music/oh_starling.mp3", "mp3": "music/oh_starling.mp3", "wav": "music/oh_starling.wav", "collection": "solo", "is_new": false}, {"number": "21", "title": "One Last Embrace", "slug": "one-last-embrace", "stream": "music/one-last-embrace.mp3", "mp3": "music/one-last-embrace.mp3", "wav": "music/one-last-embrace.wav", "collection": "solo", "is_new": false}, {"number": "22", "title": "Open Soldier", "slug": "open-soldier", "stream": "music/open-soldier.mp3", "mp3": "music/open-soldier.mp3", "wav": "music/open-soldier.wav", "collection": "solo", "is_new": false}, {"number": "23", "title": "Origin", "slug": "origin", "stream": "music/origin.mp3", "mp3": "music/origin.mp3", "wav": "music/origin.wav", "collection": "solo", "is_new": false}, {"number": "24", "title": "Panic", "slug": "panic", "stream": "music/panic.mp3", "mp3": "music/panic.mp3", "wav": "music/panic.wav", "collection": "solo", "is_new": false}, {"number": "25", "title": "Pick Up Your Swords", "slug": "pick-up-your-swords", "stream": "music/pick-up-your-swords.mp3", "mp3": "music/pick-up-your-swords.mp3", "wav": "music/pick-up-your-swords.wav", "collection": "solo", "is_new": false}, {"number": "26", "title": "Please Dont Go To The Bar", "slug": "please-dont-go-to-the-bar", "stream": "music/please-dont-go-to-the-bar.mp3", "mp3": "music/please-dont-go-to-the-bar.mp3", "wav": "music/please-dont-go-to-the-bar.wav", "collection": "solo", "is_new": false}, {"number": "27", "title": "Power of the Ultraball by the Fighting Moongooses", "slug": "power-of-the-ultra-ball-by-the-fighting-moongooses", "stream": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3", "mp3": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3", "wav": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.wav", "collection": "solo", "is_new": true}, {"number": "28", "title": "Reflef", "slug": "reflef", "stream": "music/reflef.mp3", "mp3": "music/reflef.mp3", "wav": "music/reflef.wav", "collection": "solo", "is_new": false}, {"number": "29", "title": "Sam's Song", "slug": "sams-song", "stream": "music/sams-song.mp3", "mp3": "music/sams-song.mp3", "wav": "music/sams-song.wav", "collection": "solo", "is_new": false}, {"number": "30", "title": "Saying Nothing And Talking Loud", "slug": "saying-nothing-and-talking-loud", "stream": "music/saying-nothing-and-talking-loud.mp3", "mp3": "music/saying-nothing-and-talking-loud.mp3", "wav": "music/saying-nothing-and-talking-loud.wav", "collection": "solo", "is_new": false}, {"number": "31", "title": "Solo Train", "slug": "solo-train", "stream": "music/solo-train.mp3", "mp3": "music/solo-train.mp3", "wav": "music/solo-train.wav", "collection": "solo", "is_new": false}, {"number": "32", "title": "Sorrow", "slug": "sorrow", "stream": "music/sorrow.mp3", "mp3": "music/sorrow.mp3", "wav": "music/sorrow.wav", "collection": "solo", "is_new": false}, {"number": "33", "title": "Sounds From Tuesday Evening", "slug": "sounds-from-tuesday-evening", "stream": "music/sounds-from-tuesday-evening.mp3", "mp3": "music/sounds-from-tuesday-evening.mp3", "wav": "music/sounds-from-tuesday-evening.wav", "collection": "solo", "is_new": false}, {"number": "34", "title": "Sounds Of Nature", "slug": "sounds-of-nature", "stream": "music/sounds-of-nature.mp3", "mp3": "music/sounds-of-nature.mp3", "wav": "music/sounds-of-nature.wav", "collection": "solo", "is_new": false}, {"number": "35", "title": "The Final Imploration", "slug": "the-final-imploration", "stream": "music/the-final-imploration.mp3", "mp3": "music/the-final-imploration.mp3", "wav": "music/the-final-imploration.wav", "collection": "solo", "is_new": false}, {"number": "36", "title": "The Forgotton Chamber", "slug": "the-forgotton-chamber", "stream": "music/the-forgotton-chamber.mp3", "mp3": "music/the-forgotton-chamber.mp3", "wav": "music/the-forgotton-chamber.wav", "collection": "solo", "is_new": false}, {"number": "37", "title": "The Mystic Rambler", "slug": "the-mystic-rambler", "stream": "music/the-mystic-rambler.mp3", "mp3": "music/the-mystic-rambler.mp3", "wav": "music/the-mystic-rambler.wav", "collection": "solo", "is_new": false}, {"number": "38", "title": "The Wolf Song", "slug": "the-wolf-song", "stream": "music/the-wolf-song.mp3", "mp3": "music/the-wolf-song.mp3", "wav": "music/the-wolf-song.wav", "collection": "solo", "is_new": false}, {"number": "39", "title": "Thursday At 741 Pm", "slug": "thursday-at-741-pm", "stream": "music/thursday-at-741-pm.mp3", "mp3": "music/thursday-at-741-pm.mp3", "wav": "music/thursday-at-741-pm.wav", "collection": "solo", "is_new": false}, {"number": "40", "title": "Uniquely Ason", "slug": "uniquely-ason", "stream": "music/uniquely-ason.mp3", "mp3": "music/uniquely-ason.mp3", "wav": "music/uniquely-ason.wav", "collection": "solo", "is_new": false}, {"number": "41", "title": "Valhalla And Helheim", "slug": "valhalla-and-helheim", "stream": "music/valhalla-and-helheim.mp3", "mp3": "music/valhalla-and-helheim.mp3", "wav": "music/valhalla-and-helheim.wav", "collection": "solo", "is_new": false}, {"number": "42", "title": "Vegas", "slug": "vegas", "stream": "music/vegas.mp3", "mp3": "music/vegas.mp3", "wav": "music/vegas.wav", "collection": "solo", "is_new": false}, {"number": "43", "title": "Void Thoughts", "slug": "void-thoughts", "stream": "music/void-thoughts.mp3", "mp3": "music/void-thoughts.mp3", "wav": "music/void-thoughts.wav", "collection": "solo", "is_new": false}, {"number": "44", "title": "When Will The Days Interlude Valhalla", "slug": "when-will-the-days-interlude-valhalla", "stream": "music/when-will-the-days-interlude-valhalla.mp3", "mp3": "music/when-will-the-days-interlude-valhalla.mp3", "wav": "music/when-will-the-days-interlude-valhalla.wav", "collection": "solo", "is_new": false}, {"number": "45", "title": "Whiskey", "slug": "whiskey", "stream": "music/whiskey.mp3", "mp3": "music/whiskey.mp3", "wav": "music/whiskey.wav", "collection": "solo", "is_new": false}, {"number": "46", "title": "Yaht Rock", "slug": "yaht-rock", "stream": "music/yaht-rock.mp3", "mp3": "music/yaht-rock.mp3", "wav": "music/yaht-rock.wav", "collection": "solo", "is_new": false}, {"number": "K01", "title": "Back To The Heart", "slug": "karanastic-back-to-the-heart", "stream": "music/featuring-karanastic/back-to-the-heart.mp3", "mp3": "music/featuring-karanastic/back-to-the-heart.mp3", "wav": "music/featuring-karanastic/back-to-the-heart.wav", "collection": "karanastic", "is_new": false}, {"number": "K02", "title": "Made Man", "slug": "karanastic-made-man", "stream": "music/featuring-karanastic/made-man.mp3", "mp3": "music/featuring-karanastic/made-man.mp3", "wav": "music/featuring-karanastic/made-man.wav", "collection": "karanastic", "is_new": false}, {"number": "K03", "title": "Riot In The Streets", "slug": "karanastic-riot-in-the-streets", "stream": "music/featuring-karanastic/riot-in-the-streets.mp3", "mp3": "music/featuring-karanastic/riot-in-the-streets.mp3", "wav": "music/featuring-karanastic/riot-in-the-streets.wav", "collection": "karanastic", "is_new": false}, {"number": "K04", "title": "The Karanastics Pt 2", "slug": "karanastic-the-karanastics-pt-2", "stream": "music/featuring-karanastic/the-karanastics-pt-2.mp3", "mp3": "music/featuring-karanastic/the-karanastics-pt-2.mp3", "wav": "music/featuring-karanastic/the-karanastics-pt-2.wav", "collection": "karanastic", "is_new": false}, {"number": "K05", "title": "The Karanastics", "slug": "karanastic-the-karanastics", "stream": "music/featuring-karanastic/the-karanastics.mp3", "mp3": "music/featuring-karanastic/the-karanastics.mp3", "wav": "music/featuring-karanastic/the-karanastics.wav", "collection": "karanastic", "is_new": false}, {"number": "K06", "title": "The Nightcrawler", "slug": "karanastic-the-nightcrawler", "stream": "music/featuring-karanastic/the-nightcrawler.mp3", "mp3": "music/featuring-karanastic/the-nightcrawler.mp3", "wav": "music/featuring-karanastic/the-nightcrawler.wav", "collection": "karanastic", "is_new": false}, {"number": "K07", "title": "Visions Of Fire", "slug": "karanastic-visions-of-fire", "stream": "music/featuring-karanastic/visions-of-fire.mp3", "mp3": "music/featuring-karanastic/visions-of-fire.mp3", "wav": "music/featuring-karanastic/visions-of-fire.wav", "collection": "karanastic", "is_new": false}];</script>
+  <script src="assets/site.js?v=20260929-1" defer></script>
 </body>
 </html>

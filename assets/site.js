@@ -149,20 +149,38 @@
   });
 
   const search = document.querySelector("#track-search");
+  const filterButtons = document.querySelectorAll("[data-track-filter]");
   const visibleCount = document.querySelector("#visible-count");
   const noResults = document.querySelector("#no-results");
-  search?.addEventListener("input", () => {
-    const query = search.value.trim().toLowerCase();
+  let activeFilter = "all";
+
+  const applyTrackFilters = () => {
+    const query = search?.value.trim().toLowerCase() || "";
     let count = 0;
     document.querySelectorAll(".track").forEach((track) => {
-      const visible = !query || track.dataset.search.includes(query);
+      const matchesSearch = !query || track.dataset.search.includes(query);
+      const matchesFilter = activeFilter === "all" || track.dataset.new === "true";
+      const visible = matchesSearch && matchesFilter;
       track.hidden = !visible;
       if (visible) count += 1;
     });
     const featuredVisible = [...document.querySelectorAll("#featured-track-list .track")].some((track) => !track.hidden);
-    document.querySelector(".cross-signal")?.classList.toggle("is-filter-empty", !featuredVisible && Boolean(query));
+    document.querySelector(".cross-signal")?.classList.toggle("is-filter-empty", !featuredVisible && Boolean(query || activeFilter !== "all"));
     visibleCount.textContent = count;
     noResults.hidden = count !== 0;
+  };
+
+  search?.addEventListener("input", applyTrackFilters);
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeFilter = button.dataset.trackFilter;
+      filterButtons.forEach((option) => {
+        const selected = option === button;
+        option.classList.toggle("is-active", selected);
+        option.setAttribute("aria-pressed", String(selected));
+      });
+      applyTrackFilters();
+    });
   });
 
   const form = document.querySelector("#contact-form");

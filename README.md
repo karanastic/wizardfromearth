@@ -19,6 +19,11 @@ changing the layout.
 1. Add WAV masters to `music/`.
 2. Run `./prepare-media.sh` to create matching MP3 streaming files.
 3. Run `python3 build.py` whenever tracks are added or renamed.
+
+To change which releases appear under the **New** filter, edit
+`NEW_TRACK_SLUGS` near the top of `build.py`, then run the build again. Remove
+older slugs and add the slugs for the current release group; the filter count
+and track badges update automatically.
 4. Preview the folder with any local static web server.
 
 The builder discovers every WAV file automatically. Each track receives a play

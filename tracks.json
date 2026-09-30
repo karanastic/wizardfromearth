@@ -6,7 +6,8 @@
     "stream": "music/alexanders-desert-march.mp3",
     "mp3": "music/alexanders-desert-march.mp3",
     "wav": "music/alexanders-desert-march.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "02",
@@ -15,7 +16,8 @@
     "stream": "music/an-imploration.mp3",
     "mp3": "music/an-imploration.mp3",
     "wav": "music/an-imploration.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "03",
@@ -24,7 +26,8 @@
     "stream": "music/blood-and-love.mp3",
     "mp3": "music/blood-and-love.mp3",
     "wav": "music/blood-and-love.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "04",
@@ -33,7 +36,8 @@
     "stream": "music/clap.mp3",
     "mp3": "music/clap.mp3",
     "wav": "music/clap.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "05",
@@ -42,7 +46,8 @@
     "stream": "music/days-are-all-ive-ever-had.mp3",
     "mp3": "music/days-are-all-ive-ever-had.mp3",
     "wav": "music/days-are-all-ive-ever-had.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "06",
@@ -51,7 +56,8 @@
     "stream": "music/dirty-number-3.mp3",
     "mp3": "music/dirty-number-3.mp3",
     "wav": "music/dirty-number-3.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "07",
@@ -60,7 +66,8 @@
     "stream": "music/easter-day.mp3",
     "mp3": "music/easter-day.mp3",
     "wav": "music/easter-day.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "08",
@@ -69,7 +76,8 @@
     "stream": "music/friday-at-831-pm.mp3",
     "mp3": "music/friday-at-831-pm.mp3",
     "wav": "music/friday-at-831-pm.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "09",
@@ -78,7 +86,8 @@
     "stream": "music/further-in-the-forest.mp3",
     "mp3": "music/further-in-the-forest.mp3",
     "wav": "music/further-in-the-forest.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": true
   },
   {
     "number": "10",
@@ -87,7 +96,8 @@
     "stream": "music/guitar-loop.mp3",
     "mp3": "music/guitar-loop.mp3",
     "wav": "music/guitar-loop.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "11",
@@ -96,7 +106,8 @@
     "stream": "music/hello-and-goodbye.mp3",
     "mp3": "music/hello-and-goodbye.mp3",
     "wav": "music/hello-and-goodbye.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "12",
@@ -105,7 +116,8 @@
     "stream": "music/henry-by-the-fighting-moongooses.mp3",
     "mp3": "music/henry-by-the-fighting-moongooses.mp3",
     "wav": "music/henry-by-the-fighting-moongooses.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": true
   },
   {
     "number": "13",
@@ -114,7 +126,8 @@
     "stream": "music/henry-ive-known-you.mp3",
     "mp3": "music/henry-ive-known-you.mp3",
     "wav": "music/henry-ive-known-you.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": true
   },
   {
     "number": "14",
@@ -123,7 +136,8 @@
     "stream": "music/henry-poopy-potty.mp3",
     "mp3": "music/henry-poopy-potty.mp3",
     "wav": "music/henry-poopy-potty.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": true
   },
   {
     "number": "15",
@@ -132,7 +146,8 @@
     "stream": "music/it-helps_Masterchannel.mp3",
     "mp3": "music/it-helps_Masterchannel.mp3",
     "wav": "music/it-helps_Masterchannel.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "16",
@@ -141,7 +156,8 @@
     "stream": "music/ive-got-a-place-in-the-stars.mp3",
     "mp3": "music/ive-got-a-place-in-the-stars.mp3",
     "wav": "music/ive-got-a-place-in-the-stars.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "17",
@@ -150,7 +166,8 @@
     "stream": "music/leaving-mercury.mp3",
     "mp3": "music/leaving-mercury.mp3",
     "wav": "music/leaving-mercury.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "18",
@@ -159,7 +176,8 @@
     "stream": "music/loving-you-is-never-enough.mp3",
     "mp3": "music/loving-you-is-never-enough.mp3",
     "wav": "music/loving-you-is-never-enough.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "19",
@@ -168,7 +186,8 @@
     "stream": "music/no-rights.mp3",
     "mp3": "music/no-rights.mp3",
     "wav": "music/no-rights.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "20",
@@ -177,7 +196,8 @@
     "stream": "music/oh_starling.mp3",
     "mp3": "music/oh_starling.mp3",
     "wav": "music/oh_starling.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "21",
@@ -186,7 +206,8 @@
     "stream": "music/one-last-embrace.mp3",
     "mp3": "music/one-last-embrace.mp3",
     "wav": "music/one-last-embrace.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "22",
@@ -195,7 +216,8 @@
     "stream": "music/open-soldier.mp3",
     "mp3": "music/open-soldier.mp3",
     "wav": "music/open-soldier.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "23",
@@ -204,7 +226,8 @@
     "stream": "music/origin.mp3",
     "mp3": "music/origin.mp3",
     "wav": "music/origin.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "24",
@@ -213,7 +236,8 @@
     "stream": "music/panic.mp3",
     "mp3": "music/panic.mp3",
     "wav": "music/panic.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "25",
@@ -222,7 +246,8 @@
     "stream": "music/pick-up-your-swords.mp3",
     "mp3": "music/pick-up-your-swords.mp3",
     "wav": "music/pick-up-your-swords.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "26",
@@ -231,7 +256,8 @@
     "stream": "music/please-dont-go-to-the-bar.mp3",
     "mp3": "music/please-dont-go-to-the-bar.mp3",
     "wav": "music/please-dont-go-to-the-bar.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "27",
@@ -240,7 +266,8 @@
     "stream": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3",
     "mp3": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.mp3",
     "wav": "music/power-of-the-ultra-ball-by-the-fighting-moongooses.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": true
   },
   {
     "number": "28",
@@ -249,7 +276,8 @@
     "stream": "music/reflef.mp3",
     "mp3": "music/reflef.mp3",
     "wav": "music/reflef.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "29",
@@ -258,7 +286,8 @@
     "stream": "music/sams-song.mp3",
     "mp3": "music/sams-song.mp3",
     "wav": "music/sams-song.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "30",
@@ -267,7 +296,8 @@
     "stream": "music/saying-nothing-and-talking-loud.mp3",
     "mp3": "music/saying-nothing-and-talking-loud.mp3",
     "wav": "music/saying-nothing-and-talking-loud.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "31",
@@ -276,7 +306,8 @@
     "stream": "music/solo-train.mp3",
     "mp3": "music/solo-train.mp3",
     "wav": "music/solo-train.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "32",
@@ -285,7 +316,8 @@
     "stream": "music/sorrow.mp3",
     "mp3": "music/sorrow.mp3",
     "wav": "music/sorrow.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "33",
@@ -294,7 +326,8 @@
     "stream": "music/sounds-from-tuesday-evening.mp3",
     "mp3": "music/sounds-from-tuesday-evening.mp3",
     "wav": "music/sounds-from-tuesday-evening.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "34",
@@ -303,7 +336,8 @@
     "stream": "music/sounds-of-nature.mp3",
     "mp3": "music/sounds-of-nature.mp3",
     "wav": "music/sounds-of-nature.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "35",
@@ -312,7 +346,8 @@
     "stream": "music/the-final-imploration.mp3",
     "mp3": "music/the-final-imploration.mp3",
     "wav": "music/the-final-imploration.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "36",
@@ -321,7 +356,8 @@
     "stream": "music/the-forgotton-chamber.mp3",
     "mp3": "music/the-forgotton-chamber.mp3",
     "wav": "music/the-forgotton-chamber.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "37",
@@ -330,7 +366,8 @@
     "stream": "music/the-mystic-rambler.mp3",
     "mp3": "music/the-mystic-rambler.mp3",
     "wav": "music/the-mystic-rambler.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "38",
@@ -339,7 +376,8 @@
     "stream": "music/the-wolf-song.mp3",
     "mp3": "music/the-wolf-song.mp3",
     "wav": "music/the-wolf-song.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "39",
@@ -348,7 +386,8 @@
     "stream": "music/thursday-at-741-pm.mp3",
     "mp3": "music/thursday-at-741-pm.mp3",
     "wav": "music/thursday-at-741-pm.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "40",
@@ -357,7 +396,8 @@
     "stream": "music/uniquely-ason.mp3",
     "mp3": "music/uniquely-ason.mp3",
     "wav": "music/uniquely-ason.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "41",
@@ -366,7 +406,8 @@
     "stream": "music/valhalla-and-helheim.mp3",
     "mp3": "music/valhalla-and-helheim.mp3",
     "wav": "music/valhalla-and-helheim.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "42",
@@ -375,7 +416,8 @@
     "stream": "music/vegas.mp3",
     "mp3": "music/vegas.mp3",
     "wav": "music/vegas.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "43",
@@ -384,7 +426,8 @@
     "stream": "music/void-thoughts.mp3",
     "mp3": "music/void-thoughts.mp3",
     "wav": "music/void-thoughts.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "44",
@@ -393,7 +436,8 @@
     "stream": "music/when-will-the-days-interlude-valhalla.mp3",
     "mp3": "music/when-will-the-days-interlude-valhalla.mp3",
     "wav": "music/when-will-the-days-interlude-valhalla.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "45",
@@ -402,7 +446,8 @@
     "stream": "music/whiskey.mp3",
     "mp3": "music/whiskey.mp3",
     "wav": "music/whiskey.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "46",
@@ -411,7 +456,8 @@
     "stream": "music/yaht-rock.mp3",
     "mp3": "music/yaht-rock.mp3",
     "wav": "music/yaht-rock.wav",
-    "collection": "solo"
+    "collection": "solo",
+    "is_new": false
   },
   {
     "number": "K01",
@@ -420,7 +466,8 @@
     "stream": "music/featuring-karanastic/back-to-the-heart.mp3",
     "mp3": "music/featuring-karanastic/back-to-the-heart.mp3",
     "wav": "music/featuring-karanastic/back-to-the-heart.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K02",
@@ -429,7 +476,8 @@
     "stream": "music/featuring-karanastic/made-man.mp3",
     "mp3": "music/featuring-karanastic/made-man.mp3",
     "wav": "music/featuring-karanastic/made-man.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K03",
@@ -438,7 +486,8 @@
     "stream": "music/featuring-karanastic/riot-in-the-streets.mp3",
     "mp3": "music/featuring-karanastic/riot-in-the-streets.mp3",
     "wav": "music/featuring-karanastic/riot-in-the-streets.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K04",
@@ -447,7 +496,8 @@
     "stream": "music/featuring-karanastic/the-karanastics-pt-2.mp3",
     "mp3": "music/featuring-karanastic/the-karanastics-pt-2.mp3",
     "wav": "music/featuring-karanastic/the-karanastics-pt-2.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K05",
@@ -456,7 +506,8 @@
     "stream": "music/featuring-karanastic/the-karanastics.mp3",
     "mp3": "music/featuring-karanastic/the-karanastics.mp3",
     "wav": "music/featuring-karanastic/the-karanastics.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K06",
@@ -465,7 +516,8 @@
     "stream": "music/featuring-karanastic/the-nightcrawler.mp3",
     "mp3": "music/featuring-karanastic/the-nightcrawler.mp3",
     "wav": "music/featuring-karanastic/the-nightcrawler.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   },
   {
     "number": "K07",
@@ -474,6 +526,7 @@
     "stream": "music/featuring-karanastic/visions-of-fire.mp3",
     "mp3": "music/featuring-karanastic/visions-of-fire.mp3",
     "wav": "music/featuring-karanastic/visions-of-fire.wav",
-    "collection": "karanastic"
+    "collection": "karanastic",
+    "is_new": false
   }
 ]

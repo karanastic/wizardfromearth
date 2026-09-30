@@ -24,6 +24,16 @@ TITLE_OVERRIDES = {
     "sams-song": "Sam's Song",
 }
 
+# Move slugs in and out of this set as the current release group changes.
+# This is the only list that controls both the NEW badge and the New filter.
+NEW_TRACK_SLUGS = {
+    "further-in-the-forest",
+    "henry-by-the-fighting-moongooses",
+    "henry-ive-known-you",
+    "henry-poopy-potty",
+    "power-of-the-ultra-ball-by-the-fighting-moongooses",
+}
+
 
 def title_from_stem(stem):
     if stem in TITLE_OVERRIDES:
@@ -54,6 +64,7 @@ def load_tracks():
                 "mp3": f"music/{stem}.mp3",
                 "wav": f"music/{wav_path.name}",
                 "collection": "solo",
+                "is_new": slug_from_stem(stem) in NEW_TRACK_SLUGS,
             }
         )
     featured_dir = MUSIC_DIR / "featuring-karanastic"
@@ -68,6 +79,7 @@ def load_tracks():
                 "mp3": f"music/featuring-karanastic/{stem}.mp3",
                 "wav": f"music/featuring-karanastic/{wav_path.name}",
                 "collection": "karanastic",
+                "is_new": f"karanastic-{slug_from_stem(stem)}" in NEW_TRACK_SLUGS,
             }
         )
     if tracks:
@@ -83,14 +95,15 @@ def load_tracks():
 
 def render_track(track, index):
     bars = "".join('<span aria-hidden="true"></span>' for _ in range(7))
-    return f'''<article class="track" id="track-{esc(track['slug'])}" data-index="{index}" data-search="{esc(track['title'].lower())}">
+    new_badge = '<span class="track__new">New</span>' if track.get("is_new") else ""
+    return f'''<article class="track" id="track-{esc(track['slug'])}" data-index="{index}" data-search="{esc(track['title'].lower())}" data-new="{str(bool(track.get('is_new'))).lower()}">
       <button class="track__play" type="button" data-play="{index}" aria-label="Play {esc(track['title'])}">
         <span class="track__play-idle" aria-hidden="true">▶</span>
         <span class="track__play-live" aria-hidden="true">Ⅱ</span>
       </button>
       <div class="track__number"><span>TX</span>{esc(track['number'])}</div>
       <div class="track__signal">{bars}</div>
-      <h3>{esc(track['title'])}</h3>
+      <h3>{esc(track['title'])}{new_badge}</h3>
       <div class="track__actions">
         <button type="button" data-play="{index}">Stream</button>
         <a href="{esc(track['wav'])}" download>WAV</a>
@@ -158,6 +171,7 @@ def main():
     output = output.replace("__TRACK_COUNT__", str(len(tracks)))
     output = output.replace("__SOLO_COUNT__", str(len(solo_tracks)))
     output = output.replace("__FEATURE_COUNT__", str(len(featured_tracks)))
+    output = output.replace("__NEW_COUNT__", str(sum(bool(track.get("is_new")) for track in tracks)))
     output = output.replace("__YEAR__", str(datetime.date.today().year))
     output = "\n".join(line.rstrip() for line in output.splitlines()) + "\n"
     (ROOT / "index.html").write_text(output, encoding="utf-8")
